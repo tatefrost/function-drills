@@ -88,19 +88,19 @@
 */
 
 //CODE HERE
-// function faveColorFinder(color){
-//   if (color === 'red'){
-//     console.log('red is a great color');
-//   } else if (color === 'green'){
-//     console.log('green is a solid favoite color');
-//   } else if (color === 'black'){
-//     console.log('so trendy')
-//   } else {
-//     console.log('you need to evaluate your favorite color choice');
-//   }
-// }
+function faveColorFinder(color){
+  if (color === 'red'){
+    console.log('red is a great color');
+  } else if (color === 'green'){
+    console.log('green is a solid favoite color');
+  } else if (color === 'black'){
+    console.log('so trendy')
+  } else {
+    console.log('you need to evaluate your favorite color choice');
+  }
+}
 
-// let colorRating = faveColorFinder('black');
+let colorRating = faveColorFinder('black');
 
 ////////////////// PROBLEM 7 ////////////////////
 // let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -251,7 +251,7 @@ console.log(arrayEvaluator);
 // console.log('You may buy ', totalFrogs2, ' frogs');
 
 ////////////////// PROBLEM 15 ////////////////////
-// let sampleArray = [0,1,2,3,4,7,5,6,8,9]
+let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 // let testArray = [2,5,4,7,9,3,5,4,8,2]
 /*
   Write a function that takes in an array of numbers as an argument. In the body of the function, write logic to determine if the array is in ascending order. The function should return true, if it is sorted in ascending order, false if it is not. Create a variable, `arrayIsAscending` and set it equal to your function invoked. Use the sample array to test this function.
@@ -259,17 +259,17 @@ console.log(arrayEvaluator);
 
 //CODE HERE
 
-// function fun(arr){
-//   for (let i = 0; i < arr.length; i++){
-//     if (i === arr[i]){
-//       return true
-//     } else {
-//       return false
-//     }
-//   }
-// }
-// let arrayIsAscending = fun(sampleArray);
-// console.log(arrayIsAscending);
+function fun(arr){
+  for (let i = 0; i < arr.length; i++){
+    if (arr[i] < (arr[i + 1]){
+      return true
+    } else {
+      return false
+    }
+  }
+}
+let arrayIsAscending = fun(sampleArray);
+console.log(arrayIsAscending);
 
 ////////////////// PROBLEM 16 ////////////////////
 
